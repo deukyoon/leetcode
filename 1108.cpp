@@ -5,7 +5,7 @@ class Solution
     {
         string res;
         
-        for(const char c : address)
+        for(auto c : address)
         {
             
             if(c=='.')
